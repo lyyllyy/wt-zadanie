@@ -3,111 +3,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+   />
+   <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   <title>LUXEDRIVE - Car Rental</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Header -->
-  <header class="header">
-    <img src="icons/Heading.png" alt="Logo" class="logo-image">
-    <nav class="nav">
-        <button class="header-btn">Contact us</button>
-        <button class="header-btn">How it works?</button>
-        <button class="header-btn">Why choose us?</button>
-        <button class="header-btn login-btn">Login / Register</button>
-      </nav>
+  <header>
+    <nav>
+      <div class="nav-header">
+        <div class="nav-logo">
+          <a href="#" class="logo"><img src="icons/Heading.png" alt=""></a>
+        </div>
+        <div class="nav-menu-btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav_links" id="nav-links">
+        <li> <a href="contact.html">Contact us</a></li>
+        <li> <a href="howto.html">How it works?</a></li>
+        <li> <a href="whyus.html">Why choose us</a></li>
+      </ul>
+      <div class="nav-btn">
+        <button class="btn" onclick="location.href='login.html'">Login/Register</button>
+      </div>
+    </nav>
+    <div class="header-container" id="home">
+      <h1>Discover the world on wheels</h1>
+      <form action="/"> 
+        <div class="input-group">
+          <label for="picklocation">Pick-up Location</label>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Search a location"
+            />
+        </div>
+        <div class="input-group">
+          <label for="pick-date">Pick-up Date</label>
+          <input
+            type="text"
+            name="pick-date"
+            id="location"
+            placeholder="11/11/2024"
+            />
+        </div>
+        <div class="input-group">
+          <label for="drop-location">Drop-Off Location</label>
+          <input
+            type="text"
+            name="drop-location"
+            id="location"
+            placeholder="Search a location"
+            />
+        </div>
+        <div class="input-group">
+          <label for="drop-date">Drop-Off Date</label>
+          <input
+            type="text"
+            name="drop-date"
+            id="location"
+            placeholder="11/11/2024"
+            />
+        </div>
+        <button class="btn">
+          <i class="ri-search-line"></i>
+        </button>
+      </form>
+      <img src="icons/image 23 (1).png" alt="header" />
+    </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Discover the world on wheels<br>with our car rental service</h1>
-    <div class="search-form">
-      <div class="input-group">
-        <label>Pick-up Location</label>
-        <input type="text" placeholder="Search a location">
+  <section class="services" id="services">
+    <div class="heading">
+      <h1>Our impressive Collection of Cars</h1>
+    </div>
+    <div class="services-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="icons/car1.png" alt="">
+        </div>
+        <p>2019</p>
+        <h3>Porsche Panamera</h3>
+        <h2>$80 <span>/day</span></h2>
+        <a href="#" class="btn">Rent Now</a>
       </div>
-      <div class="input-group">
-        <label>Pick-up date</label>
-        <input type="date" value="2023-12-12">
+      <div class="box">
+        <div class="box-img">
+          <img src="icons/car2.png" alt="">
+        </div>
+        <p>2022</p>
+        <h3>Nissan Maxima Platinum</h3>
+        <h2>$80 <span>/day</span></h2>
+        <a href="#" class="btn">Rent Now</a>
       </div>
-      <div class="input-group">
-        <label>Drop-off Location</label>
-        <input type="text" placeholder="Search a location">
+      <div class="box">
+        <div class="box-img">
+          <img src="icons/car3.png" alt="">
+        </div>
+        <p>2022</p>
+        <h3>BMW M4</h3>
+        <h2>$80 <span>/day</span></h2>
+        <a href="#" class="btn">Rent Now</a>
       </div>
-      <div class="input-group">
-        <label>Drop-off date</label>
-        <input type="date" value="2023-12-12">
+      <div class="box">
+        <div class="box-img">
+          <img src="icons/car4.png" alt="">
+        </div>
+        <p>2015</p>
+        <h3>Audi A4 B7</h3>
+        <h2>$47 <span>/day</span></h2>
+        <a href="#" class="btn">Rent Now</a>
       </div>
-      <button class="find-vehicle-btn">Find a Vehicle</button>
+      <div class="box">
+        <div class="box-img">
+          <img src="icons/car5.png" alt="">
+        </div>
+        <p>2017</p>
+        <h3>McLaren 720S</h3>
+        <h2>$92 <span>/day</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="icons/car6.png" alt="">
+        </div>
+        <p>2015</p>
+        <h3>BMW M4 F82</h3>
+        <h2>$63 <span>/day</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
     </div>
   </section>
 
-  <!-- Filters Section -->
-  <section class="filters">
-    <div class="filter-brands">
-      <h2>Rent by Brands</h2>
-      <div class="brand-list">
-        <!-- Brand icons go here -->
-        <img src="icons/brand1.png" alt="Brand 1">
-        <img src="brand2.png" alt="Brand 2">
-       
+  <footer>
+    <div class="footer-content">
+      <div class="footer-top">
+        <h2>Download our mobile app ⚡</h2>
+        <p>Get exclusive access to car rentals with our mobile app. Download now and experience convenience on the go.</p>
+        <div class="app-buttons">
+          <a href="#" class="app-store">
+            <img src="icons/appstore.png" alt="Download on the App Store">
+          </a>
+          <a href="#" class="google-play">
+            <img src="icons/google.png" alt="Get it on Google Play">
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="filter-body-type">
-      <h2>Rent by Body Type</h2>
-      <div class="body-type-list">
-        <img src="suv.png" alt="SUV">
-        <img src="sedan.png" alt="Sedan">
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- Car Collection Section -->
-  <section class="car-collection">
-    <h2>Our Impressive Collection of Cars</h2>
-    <div class="car-categories">
-      <button>Popular Car</button>
-      <button>Luxury Car</button>
-      <button>Vintage Car</button>
-      <button>Family Car</button>
-      <button>Off-Road Car</button>
-    </div>
-    <div class="car-grid">
-      <!-- Car cards go here -->
-      <div class="car-card">
-        <img src="car1.png" alt="Car 1">
-        <div class="car-info">
-          <h3>Audi A8L 2022</h3>
-          <p>$78.90 / day</p>
-          <button>Rent Now</button>
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <a href="#"><img src="icons/Heading.png" alt="LUXEDRIVE Logo"></a>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-dribbble-line"></i></a>
+          <a href="#"><i class="ri-twitter-line"></i></a>
+          <a href="#"><i class="ri-youtube-line"></i></a>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section class="testimonials">
-    <h2>What Our Customers Say</h2>
-    <div class="testimonial">
-      <p>“I was really impressed with the level of service ... premium car rental experience.”</p>
-      <div class="customer-info">
-        <img src="customer-photo.jpg" alt="Customer Photo">
-        <p>Lokman Hossain, From Texas</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>Download our mobile app</p>
-    <div class="app-links">
-      <a href="#"><img src="appstore.png" alt="App Store"></a>
-      <a href="#"><img src="googleplay.png" alt="Google Play"></a>
-    </div>
-    <div class="social-media">
-      <!-- Social icons go here -->
-    </div>
   </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+
+  <!-- Hero Section -->
+  
 </body>
 </html>
