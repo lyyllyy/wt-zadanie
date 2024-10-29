@@ -1,0 +1,18 @@
+.contact_background {
+    background-color: lightblue;
+}
+
+.main-contact h1 {
+    color: brown;
+    font-size: 18px;
+    font-family: Georgia, serif;
+
+}
+
+.contact-info {
+    opacity: 10%;
+}
+
+.form_contact1 {
+    border-radius: 0px;
+}
