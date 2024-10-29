@@ -1,0 +1,18 @@
+.contact_background {
+    background-color: lightgreen;
+}
+
+.main-contact h1 {
+    color: blue;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-info {
+    opacity: 30%;
+}
+
+.form_contact1 {
+    border-radius: 50px;
+}

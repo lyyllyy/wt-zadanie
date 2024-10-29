@@ -379,4 +379,90 @@ footer {
   }
   
 
+/* contact */
+  .main-contact {
+    padding: 10px; 
+  }
+
 }
+
+.nadpis_contact-howto{
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  padding-left: 1rem;    
+  padding-right: 1rem;
+}
+
+.text-gray {
+  color: #6c757d; 
+}
+.contact-info {
+  background-color: black;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 50px;
+  border-radius: 0.3rem; 
+  margin-bottom: 1rem;   
+}
+.form_contact {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  padding-left: 1rem;     
+  padding-right: 1rem;    
+}
+
+.form_contact1 {
+  background-color: #ffffff; 
+  padding-top: 3rem;       
+  padding-bottom: 3rem;     
+  border-radius: 0.3rem;    
+}
+.main-contact{
+  padding: 40px;
+  margin-bottom: 120px;
+}
+.contact_background{
+  background-color: lightgray;
+}
+.main-contact h1,.main-howto h1 {
+  margin-top: 120px; 
+  margin-bottom: 20px;
+}
+.contact_btn_mess {
+  float: left; 
+  border-radius: 0.3rem; 
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+}
+/* howto */
+.bubble {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  background-color: white; 
+  color: black; 
+  border-radius: 10px; 
+  margin-bottom: 10px;
+}
+
+.howto_main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  width: 100%; 
+
+}
+
+.howto_main1 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-radius: 0.3rem;
+  max-width: 100%; 
+}
+.howto_main2{
+  margin-bottom: 1rem;
+}
+
