@@ -492,3 +492,19 @@ footer {
   position: relative;
   left: 5%;
 }
+
+.desktop-content {
+  display: block;
+}
+.mobile-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-content {
+    display: none;
+  }
+  .mobile-content {
+    display: block;
+  }
+}
