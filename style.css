@@ -106,9 +106,9 @@ nav{
 .nav_links a:hover{
   color: grey;
 }
-.nav-btn{
+/*.nav-btn{
   display: none;
-}
+}*/
 .header-container{
   position: relative;
   isolation: isolate;
@@ -367,7 +367,22 @@ footer {
   .nav_links a:hover{
     color: gray;
   }
-  .nav-btn{
+  .nav_links .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 48px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .nav_links .btn:hover {
+    background-color: gray;
+  }
+  /*.nav-btn{
     display: flex;
     flex: 1;
     align-items: center;
@@ -378,7 +393,7 @@ footer {
     color: white;
     background-color: black;
   }
- 
+ */
 
 /* contact */
   .main-contact{
