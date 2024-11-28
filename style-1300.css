@@ -1,0 +1,18 @@
+.contact_background {
+    background-color: lightcoral;
+}
+
+.main-contact h1 {
+    color: green;
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.contact-info {
+    opacity: 50%;
+}
+
+.form_contact1 {
+    border-radius: 25px;
+}

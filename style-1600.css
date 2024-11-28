@@ -1,0 +1,15 @@
+.contact_background{
+    background-color: lightgray;
+}
+.main-contact h1{
+color: black;
+font-size: 48px;
+font-family: 'Figtree', sans-serif;
+
+}
+.contact-info {
+    opacity: 80%;
+}
+.form_contact1 {
+    border-radius: 4.8px;
+}
