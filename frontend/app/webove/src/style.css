@@ -115,6 +115,7 @@ nav{
   overflow: hidden;
   padding: 5rem 1rem;
   color: white;
+  
 }
 .header-container h1{
   max-width: 850px;
@@ -171,6 +172,8 @@ nav{
 .header-container img{
   max-width: 1920px;
   margin-inline: auto;
+ 
+  
 }
 
 .services h1{
