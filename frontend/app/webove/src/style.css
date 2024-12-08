@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 :root{
   --max-width: 1200px;
@@ -38,7 +39,7 @@
 
 img {
   display: flex;
-  width: 80%;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -261,6 +262,7 @@ footer {
   text-align: center;
   font-family: 'Figtree', sans-serif;
   margin-top: 1rem;
+ 
 }
 
 .footer-content {
@@ -406,7 +408,10 @@ footer {
 
 }
 .app {
-  position: relative; /* Pre umožnenie absolútne pozicionovaného elementu */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 .background {
@@ -559,3 +564,5 @@ main {
     display: block;
   }
 }
+
+
