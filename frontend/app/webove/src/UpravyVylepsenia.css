@@ -88,3 +88,16 @@ button:hover {
     padding: 10px;
   }
 }
+th {
+  cursor: pointer;
+  padding: 12px 15px;
+  
+}
+
+th:hover {
+  background-color: #494848;
+}
+
+th:active {
+  background-color: #797777;
+}
